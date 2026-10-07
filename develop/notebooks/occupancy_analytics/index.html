@@ -6,13 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including Ultralytics, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, and VLM parsers.">
+        <meta name="description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including RF-DETR, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, Ultralytics, and VLM parsers.">
       
       
         <meta name="author" content="Roboflow">
       
       
-        <link rel="canonical" href="https://supervision.roboflow.com/develop/notebooks/occupancy_analytics/">
+        <link rel="canonical" href="https://supervision.roboflow.com/latest/notebooks/occupancy_analytics/">
       
       
       
@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../assets/supervision-lenny.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -66,13 +66,14 @@
   
   
 
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-P7ZG0Y19G5"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-P7ZG0Y19G5",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-P7ZG0Y19G5",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-SEKT4K1EWR"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-SEKT4K1EWR",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-SEKT4K1EWR",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
   
     <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
   
 
     
     
+
 
 
 
@@ -117,6 +118,11 @@
   "codeRepository": "https://github.com/roboflow/supervision",
   "license": "https://github.com/roboflow/supervision/blob/develop/LICENSE.md",
   "description": "Open-source Python library for computer vision: load datasets, draw detections, count objects in zones, and track across frames.",
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": "https://schema.org/LikeAction",
+    "userInteractionCount": 49848
+  },
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -138,7 +144,7 @@
   },
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://supervision.roboflow.com/developsearch/?q={search_term_string}",
+    "target": "https://supervision.roboflow.com/latest/search/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -181,13 +187,13 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Supervision",
-      "item": "https://supervision.roboflow.com/develop"
+      "item": "https://supervision.roboflow.com/latest"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "How To Analyze Occupancy with Supervision",
-      "item": "https://supervision.roboflow.com/develop/notebooks/occupancy_analytics/"
+      "item": "https://supervision.roboflow.com/latest/notebooks/occupancy_analytics/"
     }
   ]
 }
@@ -198,8 +204,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Supervision" />
 <meta property="og:title" content="How To Analyze Occupancy with Supervision" />
-<meta property="og:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including Ultralytics, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, and VLM parsers." />
-<meta property="og:url" content="https://supervision.roboflow.com/develop/notebooks/occupancy_analytics/" />
+<meta property="og:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including RF-DETR, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, Ultralytics, and VLM parsers." />
+<meta property="og:url" content="https://supervision.roboflow.com/latest/notebooks/occupancy_analytics/" />
 <meta property="og:image" content="https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png" />
 <meta property="og:image:alt" content="Supervision computer vision Python library by Roboflow" />
 <meta property="og:image:width" content="1200" />
@@ -208,7 +214,7 @@
 <meta name="twitter:site" content="@roboflow" />
 <meta name="twitter:creator" content="@roboflow" />
 <meta name="twitter:title" content="How To Analyze Occupancy with Supervision" />
-<meta name="twitter:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including Ultralytics, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, and VLM parsers." />
+<meta name="twitter:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including RF-DETR, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, Ultralytics, and VLM parsers." />
 <meta name="twitter:image" content="https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png" />
 <meta name="twitter:image:alt" content="Supervision computer vision Python library by Roboflow" />
 <meta name="twitter:image:width" content="1200" />
@@ -254,6 +260,22 @@
     </div>
     
       <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+
+
+
+
+
+You are reading the unreleased development version of the documentation, built from the <code>develop</code> branch.<br>
+APIs described here may change or may never ship in a release, so use the <a href="https://supervision.roboflow.com/latest"><strong>latest stable release</strong></a> instead.
+
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
         
       </div>
     
@@ -1141,6 +1163,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to/opencv_migration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenCV Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1933,34 +1983,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../trackers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Trackers
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
     
     
     
@@ -1973,10 +1995,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
         
           
-          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
             
   
   
@@ -1994,8 +2016,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_6">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -2059,10 +2081,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
         
           
-          <label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
             
   
   
@@ -2080,8 +2102,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_7">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -2238,6 +2260,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../../metrics/aggregate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregate Comparison
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metrics/match_detections/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Match Detections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../metrics/common_values/" class="md-nav__link">
         
   
@@ -2313,10 +2391,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7" >
         
           
-          <label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
             
   
   
@@ -2334,8 +2412,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_8">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_7">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -4020,9 +4098,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">roboflow</span> <span class="n">supervision</span> <span class="o">-</span><span class="n">q</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">roboflow</span> <span class="n">supervision</span> <span class="n">trackers</span> <span class="o">-</span><span class="n">q</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-2">!pip install roboflow supervision -q</div>
+<div class="clipboard-copy-txt" id="cell-2">!pip install roboflow supervision trackers -q</div>
 </div>
 </div>
 </div>
@@ -4462,6 +4540,7 @@ loading Roboflow project...
 </clipboard-copy>
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">roboflow</span><span class="w"> </span><span class="kn">import</span> <span class="n">Roboflow</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">trackers</span><span class="w"> </span><span class="kn">import</span> <span class="n">ByteTrackTracker</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">supervision</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sv</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">cv2</span>
@@ -4475,6 +4554,7 @@ loading Roboflow project...
     <span class="k">return</span> <span class="n">sv</span><span class="o">.</span><span class="n">Detections</span><span class="o">.</span><span class="n">from_inference</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 </pre></div>
 <div class="clipboard-copy-txt" id="cell-9">from roboflow import Roboflow
+from trackers import ByteTrackTracker
 import supervision as sv
 import numpy as np
 import cv2
@@ -4609,7 +4689,7 @@ zones = [
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="setup-supervision">Setup Supervision<a class="anchor-link" href="#setup-supervision">¶</a></h3><p>For our use case, we will use the following features of Supervision. Refer to the linked documentation for more details:</p>
 <ul>
-<li><a href="https://supervision.roboflow.com/trackers/?ref=blog.roboflow.com#bytetrack">ByteTrack</a>: To track the location of our vehicles, so we can assess how long they are parked</li>
+<li><a href="https://trackers.roboflow.com/latest/">ByteTrack</a>, from the external <code>trackers</code> package: To track the location of our vehicles, so we can assess how long they are parked</li>
 <li><a href="https://supervision.roboflow.com/detection/tools/inference_slicer/?ref=blog.roboflow.com">InferenceSlicer</a>: A helper utility to run SAHI on our model</li>
 <li><a href="https://supervision.roboflow.com/annotators/?ref=blog.roboflow.com#triangleannotator">TriangleAnnotator</a>: To help visualize the locations of the vehicles</li>
 <li><a href="https://supervision.roboflow.com/annotators/?ref=blog.roboflow.com#heatmapannotator">HeatMapAnnotator</a>: To generate heatmaps so we can identify our busiest areas</li>
@@ -4637,7 +4717,8 @@ zones = [
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">tracker</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">ByteTrack</span><span class="p">()</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># track_activation_threshold matches the confidence used by the model callback.</span>
+<span class="n">tracker</span> <span class="o">=</span> <span class="n">ByteTrackTracker</span><span class="p">(</span><span class="n">track_activation_threshold</span><span class="o">=</span><span class="mf">0.25</span><span class="p">)</span>
 <span class="n">slicer</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">InferenceSlicer</span><span class="p">(</span>
     <span class="n">callback</span><span class="o">=</span><span class="n">callback</span><span class="p">,</span>
     <span class="n">slice_wh</span><span class="o">=</span><span class="p">(</span><span class="mi">800</span><span class="p">,</span> <span class="mi">800</span><span class="p">),</span>
@@ -4667,7 +4748,8 @@ zones = [
 
 <span class="k">def</span><span class="w"> </span><span class="nf">process_frame</span><span class="p">(</span><span class="n">frame</span><span class="p">,</span><span class="n">heatmap</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
     <span class="n">detections</span> <span class="o">=</span> <span class="n">slicer</span><span class="p">(</span><span class="n">image</span><span class="o">=</span><span class="n">frame</span><span class="p">)</span>
-    <span class="n">detections</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">update_with_detections</span><span class="p">(</span><span class="n">detections</span><span class="p">)</span>
+    <span class="n">detections</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">detections</span><span class="p">)</span>
+    <span class="n">detections</span> <span class="o">=</span> <span class="n">detections</span><span class="p">[</span><span class="n">detections</span><span class="o">.</span><span class="n">tracker_id</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>  <span class="c1"># -1 = pending track</span>
 
     <span class="n">annotated_frame</span> <span class="o">=</span> <span class="n">frame</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 
@@ -4707,7 +4789,8 @@ zones = [
 
     <span class="k">return</span> <span class="n">annotated_frame</span><span class="p">,</span> <span class="n">heatmap</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-11">tracker = sv.ByteTrack()
+<div class="clipboard-copy-txt" id="cell-11"># track_activation_threshold matches the confidence used by the model callback.
+tracker = ByteTrackTracker(track_activation_threshold=0.25)
 slicer = sv.InferenceSlicer(
     callback=callback,
     slice_wh=(800, 800),
@@ -4737,7 +4820,8 @@ def setup_zones(frame_wh):
 
 def process_frame(frame,heatmap=None):
     detections = slicer(image=frame)
-    detections = tracker.update_with_detections(detections)
+    detections = tracker.update(detections)
+    detections = detections[detections.tracker_id != -1]  # -1 = pending track
 
     annotated_frame = frame.copy()
 
@@ -5969,7 +6053,7 @@ for filename in os.listdir("frames"):
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 11, 2025 00:07:31 UTC">July 11, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 16, 2026 14:19:50 UTC">September 16, 2026</span>
   </span>
 
     
@@ -5997,6 +6081,11 @@ for filename in os.listdir("frames"):
     
     <nav>
       
+        <a href="https://github.com/Borda" class="md-author" title="@Borda">
+          
+          <img src="https://avatars.githubusercontent.com/u/6035284?v=4&size=72" alt="Borda">
+        </a>
+      
         <a href="https://github.com/onuralpszr" class="md-author" title="@onuralpszr">
           
           <img src="https://avatars.githubusercontent.com/u/1688848?v=4&size=72" alt="onuralpszr">
@@ -6013,6 +6102,12 @@ for filename in os.listdir("frames"):
         </a>
       
       
+      
+        
+          <a href="https://github.com/roboflow/supervision/tree/main/docs/notebooks/occupancy_analytics.ipynb" class="md-author md-author--more">
+            +1
+          </a>
+        
       
     </nav>
   </span>
@@ -6128,16 +6223,20 @@ for filename in os.listdir("frames"):
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "content.code.copy", "content.action.edit", "content.tooltips", "content.code.annotate", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "content.code.copy", "content.action.edit", "content.tooltips", "content.code.annotate", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/version-banner.js"></script>
       
         <script src="../../javascripts/init_kapa_widget.js"></script>
       
         <script src="../../javascripts/cookbooks-card.js"></script>
       
         <script src="../../javascripts/pycon_copy.js"></script>
+      
+        <script src="https://app.roboflow.com/scripts/utm.js"></script>
       
         <script src="../../javascripts/segment.js"></script>
       

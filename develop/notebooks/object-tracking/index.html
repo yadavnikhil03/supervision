@@ -6,13 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including Ultralytics, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, and VLM parsers.">
+        <meta name="description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including RF-DETR, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, Ultralytics, and VLM parsers.">
       
       
         <meta name="author" content="Roboflow">
       
       
-        <link rel="canonical" href="https://supervision.roboflow.com/develop/notebooks/object-tracking/">
+        <link rel="canonical" href="https://supervision.roboflow.com/latest/notebooks/object-tracking/">
       
       
       
@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../../assets/supervision-lenny.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -66,13 +66,14 @@
   
   
 
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-P7ZG0Y19G5"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-P7ZG0Y19G5",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-P7ZG0Y19G5",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-SEKT4K1EWR"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-SEKT4K1EWR",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-SEKT4K1EWR",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
   
     <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
   
 
     
     
+
 
 
 
@@ -117,6 +118,11 @@
   "codeRepository": "https://github.com/roboflow/supervision",
   "license": "https://github.com/roboflow/supervision/blob/develop/LICENSE.md",
   "description": "Open-source Python library for computer vision: load datasets, draw detections, count objects in zones, and track across frames.",
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": "https://schema.org/LikeAction",
+    "userInteractionCount": 49848
+  },
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -138,7 +144,7 @@
   },
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://supervision.roboflow.com/developsearch/?q={search_term_string}",
+    "target": "https://supervision.roboflow.com/latest/search/?q={search_term_string}",
     "query-input": "required name=search_term_string"
   }
 }
@@ -181,13 +187,13 @@
       "@type": "ListItem",
       "position": 1,
       "name": "Supervision",
-      "item": "https://supervision.roboflow.com/develop"
+      "item": "https://supervision.roboflow.com/latest"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Object Tracking",
-      "item": "https://supervision.roboflow.com/develop/notebooks/object-tracking/"
+      "item": "https://supervision.roboflow.com/latest/notebooks/object-tracking/"
     }
   ]
 }
@@ -198,8 +204,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Supervision" />
 <meta property="og:title" content="Object Tracking" />
-<meta property="og:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including Ultralytics, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, and VLM parsers." />
-<meta property="og:url" content="https://supervision.roboflow.com/develop/notebooks/object-tracking/" />
+<meta property="og:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including RF-DETR, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, Ultralytics, and VLM parsers." />
+<meta property="og:url" content="https://supervision.roboflow.com/latest/notebooks/object-tracking/" />
 <meta property="og:image" content="https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png" />
 <meta property="og:image:alt" content="Supervision computer vision Python library by Roboflow" />
 <meta property="og:image:width" content="1200" />
@@ -208,7 +214,7 @@
 <meta name="twitter:site" content="@roboflow" />
 <meta name="twitter:creator" content="@roboflow" />
 <meta name="twitter:title" content="Object Tracking" />
-<meta name="twitter:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including Ultralytics, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, and VLM parsers." />
+<meta name="twitter:description" content="Model-agnostic Python library for computer vision. Annotate, track, filter, and export detections from supported model outputs including RF-DETR, Roboflow Inference, Transformers, SAM, Detectron2, MMDetection, Ultralytics, and VLM parsers." />
 <meta name="twitter:image" content="https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png" />
 <meta name="twitter:image:alt" content="Supervision computer vision Python library by Roboflow" />
 <meta name="twitter:image:width" content="1200" />
@@ -254,6 +260,22 @@
     </div>
     
       <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+
+
+
+
+
+You are reading the unreleased development version of the documentation, built from the <code>develop</code> branch.<br>
+APIs described here may change or may never ship in a release, so use the <a href="https://supervision.roboflow.com/latest"><strong>latest stable release</strong></a> instead.
+
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
         
       </div>
     
@@ -1141,6 +1163,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to/opencv_migration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenCV Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1933,34 +1983,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../trackers/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Trackers
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
     
     
     
@@ -1973,10 +1995,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
         
           
-          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
             
   
   
@@ -1994,8 +2016,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_6">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -2059,10 +2081,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
         
           
-          <label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
             
   
   
@@ -2080,8 +2102,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_7">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -2238,6 +2260,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../../metrics/aggregate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aggregate Comparison
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../metrics/match_detections/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Match Detections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../metrics/common_values/" class="md-nav__link">
         
   
@@ -2313,10 +2391,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7" >
         
           
-          <label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
             
   
   
@@ -2334,8 +2412,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_8">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_7">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -3745,7 +3823,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 <h1 id="object-tracking">Object Tracking<a class="anchor-link" href="#object-tracking">¶</a></h1><hr/>
 <p><a href="https://colab.research.google.com/github/roboflow/supervision/blob/develop/docs/notebooks/object-tracking.ipynb"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg"/></a></p>
 <p>In some cases, it's important for us to track objects across multiple frames of a video. For example, we may need to figure out the direction a vehicle is moving, or count objects in a frame. Some Supervision <a href="https://supervision.roboflow.com/latest/detection/annotators/">Annotators</a> and Tools like <a href="https://supervision.roboflow.com/latest/detection/tools/line_zone/">LineZone</a> require tracking to be setup.  In this cookbook, we'll cover how to get a tracker up and running for use in your computer vision applications.</p>
-<h2 id="what-is-a-tracker">What is a Tracker?<a class="anchor-link" href="#what-is-a-tracker">¶</a></h2><p>Trackers are a piece of code that identifies objects across frames and assigns them a unique <code>tracker_id</code>. There are a few popular trackers at the time of writing this including ByteTrack and Bot-SORT. Supervision makes using trackers a breeze and comes with ByteTrack built-in.</p>
+<h2 id="what-is-a-tracker">What is a Tracker?<a class="anchor-link" href="#what-is-a-tracker">¶</a></h2><p>Trackers are a piece of code that identifies objects across frames and assigns them a unique <code>tracker_id</code>. There are a few popular trackers at the time of writing this including ByteTrack and Bot-SORT. Supervision works with the external <a href="https://trackers.roboflow.com/latest/"><code>trackers</code></a> package, which provides ByteTrack and returns tracked <code>sv.Detections</code>.</p>
 </div>
 </div>
 </div>
@@ -3849,9 +3927,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">q</span> <span class="n">inference</span><span class="o">-</span><span class="n">gpu</span> <span class="s2">"supervision"</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">q</span> <span class="n">inference</span><span class="o">-</span><span class="n">gpu</span> <span class="s2">"supervision"</span> <span class="n">trackers</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-2">!pip install -q inference-gpu "supervision"</div>
+<div class="clipboard-copy-txt" id="cell-2">!pip install -q inference-gpu "supervision" trackers</div>
 </div>
 </div>
 </div>
@@ -3946,11 +4024,14 @@ path_to_video = download_assets(VideoAssets.PEOPLE_WALKING)</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">supervision</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sv</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">inference.models.utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_roboflow_model</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">itertools</span>
 
-<span class="c1"># Load a pre trained yolov8 nano model from Roboflow Inference.</span>
-<span class="n">model</span> <span class="o">=</span> <span class="n">get_roboflow_model</span><span class="p">(</span><span class="s1">'yolov8n-640'</span><span class="p">)</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">supervision</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sv</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">inference.models.utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">get_roboflow_model</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">trackers</span><span class="w"> </span><span class="kn">import</span> <span class="n">ByteTrackTracker</span>
+
+<span class="c1"># Load a pre trained RF-DETR small model from Roboflow Inference.</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">get_roboflow_model</span><span class="p">(</span><span class="s1">'rfdetr-small'</span><span class="p">)</span>
 
 <span class="c1"># Create a video info object from the video path.</span>
 <span class="n">video_info</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">VideoInfo</span><span class="o">.</span><span class="n">from_video_path</span><span class="p">(</span><span class="n">path_to_video</span><span class="p">)</span>
@@ -3958,23 +4039,30 @@ path_to_video = download_assets(VideoAssets.PEOPLE_WALKING)</div>
 <span class="c1"># Create a label annotator for labeling detections with our tracker_id.</span>
 <span class="n">label</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">LabelAnnotator</span><span class="p">()</span>
 
-<span class="c1"># Create a ByteTrack object to track detections.</span>
-<span class="n">byte_tracker</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">ByteTrack</span><span class="p">(</span><span class="n">frame_rate</span><span class="o">=</span><span class="n">video_info</span><span class="o">.</span><span class="n">fps</span><span class="p">)</span>
+<span class="c1"># Create a ByteTrackTracker object to track detections. The activation</span>
+<span class="c1"># threshold is kept low so low-confidence detections still start tracks.</span>
+<span class="n">byte_tracker</span> <span class="o">=</span> <span class="n">ByteTrackTracker</span><span class="p">(</span>
+    <span class="n">frame_rate</span><span class="o">=</span><span class="n">video_info</span><span class="o">.</span><span class="n">fps</span><span class="p">,</span> <span class="n">track_activation_threshold</span><span class="o">=</span><span class="mf">0.25</span>
+<span class="p">)</span>
 
 <span class="c1"># Create a frame generator from video path for iteration of frames.</span>
 <span class="n">frame_generator</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">get_video_frames_generator</span><span class="p">(</span><span class="n">path_to_video</span><span class="p">)</span>
 
-<span class="c1"># Grab a frame from the frame_generator.</span>
-<span class="n">frame</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span><span class="n">frame_generator</span><span class="p">)</span>
+<span class="c1"># A track only earns a tracker_id once it has been matched across several</span>
+<span class="c1"># consecutive frames, so warm the tracker up before annotating a frame.</span>
+<span class="k">for</span> <span class="n">frame</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">islice</span><span class="p">(</span><span class="n">frame_generator</span><span class="p">,</span> <span class="mi">5</span><span class="p">):</span>
 
-<span class="c1"># Run inference on the frame by passing it to our model.</span>
-<span class="n">result</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">infer</span><span class="p">(</span><span class="n">frame</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="c1"># Run inference on the frame by passing it to our model.</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">infer</span><span class="p">(</span><span class="n">frame</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
 
-<span class="c1"># Convert model results to a supervision detection object.</span>
-<span class="n">detections</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">Detections</span><span class="o">.</span><span class="n">from_inference</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+    <span class="c1"># Convert model results to a supervision detection object.</span>
+    <span class="n">detections</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">Detections</span><span class="o">.</span><span class="n">from_inference</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
-<span class="c1"># Update detections with tracker ids fro byte_tracker.</span>
-<span class="n">tracked_detections</span> <span class="o">=</span> <span class="n">byte_tracker</span><span class="o">.</span><span class="n">update_with_detections</span><span class="p">(</span><span class="n">detections</span><span class="p">)</span>
+    <span class="c1"># Update detections with tracker ids from byte_tracker.</span>
+    <span class="n">tracked_detections</span> <span class="o">=</span> <span class="n">byte_tracker</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">detections</span><span class="p">)</span>
+
+<span class="c1"># Drop detections whose track is not confirmed yet.</span>
+<span class="n">tracked_detections</span> <span class="o">=</span> <span class="n">tracked_detections</span><span class="p">[</span><span class="n">tracked_detections</span><span class="o">.</span><span class="n">tracker_id</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
 
 <span class="c1"># Create labels with tracker_id for label annotator.</span>
 <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">tracker_id</span><span class="si">}</span><span class="s2">"</span> <span class="k">for</span> <span class="n">tracker_id</span> <span class="ow">in</span> <span class="n">tracked_detections</span><span class="o">.</span><span class="n">tracker_id</span> <span class="p">]</span>
@@ -3985,11 +4073,14 @@ path_to_video = download_assets(VideoAssets.PEOPLE_WALKING)</div>
 <span class="c1"># Display the frame.</span>
 <span class="n">sv</span><span class="o">.</span><span class="n">plot_image</span><span class="p">(</span><span class="n">annotated_frame</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-4">import supervision as sv
-from inference.models.utils import get_roboflow_model
+<div class="clipboard-copy-txt" id="cell-4">import itertools
 
-# Load a pre trained yolov8 nano model from Roboflow Inference.
-model = get_roboflow_model('yolov8n-640')
+import supervision as sv
+from inference.models.utils import get_roboflow_model
+from trackers import ByteTrackTracker
+
+# Load a pre trained RF-DETR small model from Roboflow Inference.
+model = get_roboflow_model('rfdetr-small')
 
 # Create a video info object from the video path.
 video_info = sv.VideoInfo.from_video_path(path_to_video)
@@ -3997,23 +4088,30 @@ video_info = sv.VideoInfo.from_video_path(path_to_video)
 # Create a label annotator for labeling detections with our tracker_id.
 label = sv.LabelAnnotator()
 
-# Create a ByteTrack object to track detections.
-byte_tracker = sv.ByteTrack(frame_rate=video_info.fps)
+# Create a ByteTrackTracker object to track detections. The activation
+# threshold is kept low so low-confidence detections still start tracks.
+byte_tracker = ByteTrackTracker(
+    frame_rate=video_info.fps, track_activation_threshold=0.25
+)
 
 # Create a frame generator from video path for iteration of frames.
 frame_generator = sv.get_video_frames_generator(path_to_video)
 
-# Grab a frame from the frame_generator.
-frame = next(frame_generator)
+# A track only earns a tracker_id once it has been matched across several
+# consecutive frames, so warm the tracker up before annotating a frame.
+for frame in itertools.islice(frame_generator, 5):
 
-# Run inference on the frame by passing it to our model.
-result = model.infer(frame)[0]
+    # Run inference on the frame by passing it to our model.
+    result = model.infer(frame)[0]
 
-# Convert model results to a supervision detection object.
-detections = sv.Detections.from_inference(result)
+    # Convert model results to a supervision detection object.
+    detections = sv.Detections.from_inference(result)
 
-# Update detections with tracker ids fro byte_tracker.
-tracked_detections = byte_tracker.update_with_detections(detections)
+    # Update detections with tracker ids from byte_tracker.
+    tracked_detections = byte_tracker.update(detections)
+
+# Drop detections whose track is not confirmed yet.
+tracked_detections = tracked_detections[tracked_detections.tracker_id != -1]
 
 # Create labels with tracker_id for label annotator.
 labels = [ f"{tracker_id}" for tracker_id in tracked_detections.tracker_id ]
@@ -4072,8 +4170,8 @@ sv.plot_image(annotated_frame)</div>
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">tqdm</span><span class="w"> </span><span class="kn">import</span> <span class="n">tqdm</span>
 
-<span class="c1"># Load a pre trained yolov8 nano model from Roboflow Inference.</span>
-<span class="n">model</span> <span class="o">=</span> <span class="n">get_roboflow_model</span><span class="p">(</span><span class="s1">'yolov8n-640'</span><span class="p">)</span>
+<span class="c1"># Load a pre trained RF-DETR small model from Roboflow Inference.</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">get_roboflow_model</span><span class="p">(</span><span class="s1">'rfdetr-small'</span><span class="p">)</span>
 
 <span class="c1"># Create a video info object from the video path.</span>
 <span class="n">video_info</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">VideoInfo</span><span class="o">.</span><span class="n">from_video_path</span><span class="p">(</span><span class="n">path_to_video</span><span class="p">)</span>
@@ -4081,8 +4179,10 @@ sv.plot_image(annotated_frame)</div>
 <span class="c1"># Create a label annotator for labeling detections with our tracker_id.</span>
 <span class="n">label</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">LabelAnnotator</span><span class="p">()</span>
 
-<span class="c1"># Create a ByteTrack object to track detections.</span>
-<span class="n">byte_tracker</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">ByteTrack</span><span class="p">(</span><span class="n">frame_rate</span><span class="o">=</span><span class="n">video_info</span><span class="o">.</span><span class="n">fps</span><span class="p">)</span>
+<span class="c1"># Create a ByteTrackTracker object to track detections.</span>
+<span class="n">byte_tracker</span> <span class="o">=</span> <span class="n">ByteTrackTracker</span><span class="p">(</span>
+    <span class="n">frame_rate</span><span class="o">=</span><span class="n">video_info</span><span class="o">.</span><span class="n">fps</span><span class="p">,</span> <span class="n">track_activation_threshold</span><span class="o">=</span><span class="mf">0.25</span>
+<span class="p">)</span>
 
 <span class="c1"># Create a frame generator from video path for iteration of frames.</span>
 <span class="n">frame_generator</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">get_video_frames_generator</span><span class="p">(</span><span class="n">path_to_video</span><span class="p">)</span>
@@ -4099,8 +4199,13 @@ sv.plot_image(annotated_frame)</div>
         <span class="c1"># Convert model results to a supervision detection object.</span>
         <span class="n">detections</span> <span class="o">=</span> <span class="n">sv</span><span class="o">.</span><span class="n">Detections</span><span class="o">.</span><span class="n">from_inference</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 
-        <span class="c1"># Update detections with tracker ids fro byte_tracker.</span>
-        <span class="n">tracked_detections</span> <span class="o">=</span> <span class="n">byte_tracker</span><span class="o">.</span><span class="n">update_with_detections</span><span class="p">(</span><span class="n">detections</span><span class="p">)</span>
+        <span class="c1"># Update detections with tracker ids from byte_tracker.</span>
+        <span class="n">tracked_detections</span> <span class="o">=</span> <span class="n">byte_tracker</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">detections</span><span class="p">)</span>
+
+        <span class="c1"># Drop detections whose track is not confirmed yet.</span>
+        <span class="n">tracked_detections</span> <span class="o">=</span> <span class="n">tracked_detections</span><span class="p">[</span>
+            <span class="n">tracked_detections</span><span class="o">.</span><span class="n">tracker_id</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span>
+        <span class="p">]</span>
 
         <span class="c1"># Create labels with tracker_id for label annotator.</span>
         <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span> <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">tracker_id</span><span class="si">}</span><span class="s2">"</span> <span class="k">for</span> <span class="n">tracker_id</span> <span class="ow">in</span> <span class="n">tracked_detections</span><span class="o">.</span><span class="n">tracker_id</span> <span class="p">]</span>
@@ -4113,8 +4218,8 @@ sv.plot_image(annotated_frame)</div>
 </pre></div>
 <div class="clipboard-copy-txt" id="cell-5">from tqdm import tqdm
 
-# Load a pre trained yolov8 nano model from Roboflow Inference.
-model = get_roboflow_model('yolov8n-640')
+# Load a pre trained RF-DETR small model from Roboflow Inference.
+model = get_roboflow_model('rfdetr-small')
 
 # Create a video info object from the video path.
 video_info = sv.VideoInfo.from_video_path(path_to_video)
@@ -4122,8 +4227,10 @@ video_info = sv.VideoInfo.from_video_path(path_to_video)
 # Create a label annotator for labeling detections with our tracker_id.
 label = sv.LabelAnnotator()
 
-# Create a ByteTrack object to track detections.
-byte_tracker = sv.ByteTrack(frame_rate=video_info.fps)
+# Create a ByteTrackTracker object to track detections.
+byte_tracker = ByteTrackTracker(
+    frame_rate=video_info.fps, track_activation_threshold=0.25
+)
 
 # Create a frame generator from video path for iteration of frames.
 frame_generator = sv.get_video_frames_generator(path_to_video)
@@ -4140,8 +4247,13 @@ with sv.VideoSink(target_path="output.mp4", video_info=video_info) as sink:
         # Convert model results to a supervision detection object.
         detections = sv.Detections.from_inference(result)
 
-        # Update detections with tracker ids fro byte_tracker.
-        tracked_detections = byte_tracker.update_with_detections(detections)
+        # Update detections with tracker ids from byte_tracker.
+        tracked_detections = byte_tracker.update(detections)
+
+        # Drop detections whose track is not confirmed yet.
+        tracked_detections = tracked_detections[
+            tracked_detections.tracker_id != -1
+        ]
 
         # Create labels with tracker_id for label annotator.
         labels = [ f"{tracker_id}" for tracker_id in tracked_detections.tracker_id ]
@@ -4202,7 +4314,7 @@ with sv.VideoSink(target_path="output.mp4", video_info=video_info) as sink:
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 11, 2025 00:07:31 UTC">July 11, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 16, 2026 14:19:50 UTC">September 16, 2026</span>
   </span>
 
     
@@ -4230,6 +4342,16 @@ with sv.VideoSink(target_path="output.mp4", video_info=video_info) as sink:
     
     <nav>
       
+        <a href="https://github.com/Borda" class="md-author" title="@Borda">
+          
+          <img src="https://avatars.githubusercontent.com/u/6035284?v=4&size=72" alt="Borda">
+        </a>
+      
+        <a href="https://github.com/web-flow" class="md-author" title="@web-flow">
+          
+          <img src="https://avatars.githubusercontent.com/u/19864447?v=4&size=72" alt="web-flow">
+        </a>
+      
         <a href="https://github.com/onuralpszr" class="md-author" title="@onuralpszr">
           
           <img src="https://avatars.githubusercontent.com/u/1688848?v=4&size=72" alt="onuralpszr">
@@ -4240,21 +4362,11 @@ with sv.VideoSink(target_path="output.mp4", video_info=video_info) as sink:
           <img src="https://avatars.githubusercontent.com/u/6500785?v=4&size=72" alt="LinasKo">
         </a>
       
-        <a href="https://github.com/Kadermiyanyedi" class="md-author" title="@Kadermiyanyedi">
-          
-          <img src="https://avatars.githubusercontent.com/u/48386782?v=4&size=72" alt="Kadermiyanyedi">
-        </a>
-      
-        <a href="https://github.com/apps/pre-commit-ci" class="md-author" title="@pre-commit-ci[bot]">
-          
-          <img src="https://avatars.githubusercontent.com/in/68672?v=4&size=72" alt="pre-commit-ci[bot]">
-        </a>
-      
       
       
         
           <a href="https://github.com/roboflow/supervision/tree/main/docs/notebooks/object-tracking.ipynb" class="md-author md-author--more">
-            +2
+            +6
           </a>
         
       
@@ -4372,16 +4484,20 @@ with sv.VideoSink(target_path="output.mp4", video_info=video_info) as sink:
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "content.code.copy", "content.action.edit", "content.tooltips", "content.code.annotate", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tracking", "content.code.copy", "content.action.edit", "content.tooltips", "content.code.annotate", "navigation.tabs", "navigation.tabs.sticky"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/version-banner.js"></script>
       
         <script src="../../javascripts/init_kapa_widget.js"></script>
       
         <script src="../../javascripts/cookbooks-card.js"></script>
       
         <script src="../../javascripts/pycon_copy.js"></script>
+      
+        <script src="https://app.roboflow.com/scripts/utm.js"></script>
       
         <script src="../../javascripts/segment.js"></script>
       
